@@ -8,6 +8,9 @@ public class demo1test {
     }
     public void addition2() {
         assertEquals(4,demo1.multiple(1,4));//make it successful
+
+	assertEquals(2,demo1.multiple(1,4));//make it fail
+	//sth different
     }
     
 }
